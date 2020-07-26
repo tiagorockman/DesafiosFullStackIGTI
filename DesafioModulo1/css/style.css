@@ -1,0 +1,82 @@
+body {
+  padding: 10px;
+  background-color: black;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.people-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.people {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  border-right: 25px;
+ margin-bottom: 10px;
+ margin-right: 5px;
+}
+
+.people:hover{
+  background-color: #26a69a;
+}
+
+.people-list {
+  padding: 10px 30px 20px 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+h1, h5 {
+  color: #26a69a;
+  text-align: center;
+}
+
+h5 {
+  font-family: "IBMPlexMonoItalic, monospace";
+  font-size: 3.5rem;
+}
+
+.input{
+  color: #26a69a;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+}
+
+.chip{  
+  font-size: 1.2rem;
+}
+
+.chipList{
+  display: flex;
+  flex-direction: column;
+}
+
+.static-list{
+  padding: 10px 50px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.input-field{
+  margin-top: 30px;
+}

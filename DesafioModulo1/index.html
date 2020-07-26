@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Search</title>
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1> People Search</h1>
+  <hr>
+  <div class="row">
+    <div class="input-field col s6">    
+      <input type="text" id="nameSearch" placeholder="Search Names" class="input">
+      <label class="active">Search</label>
+    </div>
+    <a class="btn btn-large" id="btnSearch">SEARCH</a>
+  </div>
+  
+  <div class="people-container">
+    <div class="people-list">  
+      <h5><span id="titlePeopleSearch"></span></h5>    
+      <div id="tabPeopleSearch"></div>
+    </div>
+    <div class="static-list">
+      <h5><span id="titleStastistic"></span></h5>
+      <div id="tabStatistic"></div>
+    </div>
+  </div>
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
