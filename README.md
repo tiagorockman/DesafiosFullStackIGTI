@@ -12,5 +12,8 @@ informações em json e filtrar as informações, bem como apresentar informaç�
 - Javascript 
 - Material Design
 
+## API
+- [https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo](https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo)
+
 ## Autores
 - [Tiago Neves](https://github.com/tiagorockman) :boom:
